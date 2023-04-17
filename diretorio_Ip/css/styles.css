@@ -1,0 +1,1142 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  background: linear-gradient(to right,rgb(228, 203, 160), rgb(235, 198, 138), rgb(247, 188, 94), rgb(253, 183, 73));
+  z-index: 1;
+}
+
+.carousel-home {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.back01 {
+  position: relative;
+  width: 100%;
+  height: 645px;
+  background: url(../imagens/img-slide.png) right no-repeat;
+}
+
+.back02 {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background: url(../imagens/modelo_slide06.png) right no-repeat;
+}
+
+.back03 {
+  position: relative;
+  width: 100%;
+  height: 722px;
+  background: url(../imagens/modelo_thais.png) right no-repeat;
+}
+
+.back04 {
+  position: relative;
+  width: 100%;
+  height: 775px;
+  background: url(../imagens/imagem_slide03.png) right no-repeat;
+}
+
+.engloba-carrousel-header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.engloba-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: calc(600px - 64px);
+  color: #327865;
+  padding: 5px;
+}
+
+.engloba-header h1 {
+  font-size: 45px;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+
+.engloba-header p {
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+.content-header {
+  width: 370px;
+}
+
+.logo-header {
+  padding: 40px 0 0 0;
+  width: 250px;
+  height: 125px;
+}
+
+.icons-header {
+  display: flex;
+}
+
+.cada-icon {
+  width: 25%;
+}
+
+.cada-icon img {
+  margin: 0 auto 10px auto;
+}
+
+.cada-icon p {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 0px !important;
+}
+
+
+@media (max-width: 992px) {
+  .header {
+    height: 500px;
+  }
+  .back01, .back02, .back03, .back04 {
+    height: 500px;
+  }
+  .engloba-header {
+    width: 100%;
+    height: calc(500px - 51px);
+  }
+  .engloba-header h1 {
+    font-size: 21px;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 99px;
+  }
+  .engloba-header p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 11px;
+  }
+  .content-header {
+    width: 100%;
+  }
+  .logo-header {
+    margin: 0 auto;
+    padding: 25px 0 0 0;
+  }
+  
+}
+
+
+
+
+
+
+/************************************
+*******          Form         *******
+************************************/
+
+
+.button-cadastro {
+  border-radius: 23px;
+  background-image: -moz-linear-gradient( 10deg, rgb(228, 203, 160) 0%, rgb(247, 188, 94) 99%);
+  background-image: -webkit-linear-gradient( 10deg, rgb(228, 203, 160) 0%, rgb(247, 188, 94) 99%);
+  background-image: -ms-linear-gradient( 10deg, rgb(228, 203, 160) 0%, rgb(247, 188, 94) 99%);
+  margin-top: 29px;
+  width: 100%;
+  height: 46px;
+  color: #327865;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* background: linear-gradient(to left, rgb(228, 203, 160), rgb(247, 188, 94), rgb(253, 183, 73)) */
+
+.button-cadastro:hover {
+  background-image: -moz-linear-gradient( 25deg, rgb(255, 99, 51) 0%, rgb(200, 69, 90) 99%);
+  background-image: -webkit-linear-gradient( 25deg, rgb(255, 99, 51) 0%, rgb(200, 69, 90) 99%);
+  background-image: -ms-linear-gradient( 25deg, rgb(255, 99, 51) 0%, rgb(200, 69, 90) 99%);
+}
+
+
+
+
+
+.background-img {
+  background: url(../imagens/down-arrow-other.png) #fff 98% 50% no-repeat !important;
+  color: orange !important;
+}
+
+@media (max-width: 992px) {
+  .hide-992 {
+    display: none;
+  }
+  .engloba-form {
+    position: relative;
+    width: 100%;
+    padding: 40px 0;
+    top: 0;
+  }
+  .engloba-form h2 {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+
+
+
+/************************************
+*******         Oasys       *******
+************************************/
+
+.engloba-selo-header {
+  position: relative;
+  width: 550px;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.border {
+  border-bottom: 3px solid #327865;
+}
+
+.conteudo-selo {
+  width: 325px;
+  text-align: right;
+}
+
+.conteudo-selo h2 {
+  font-size: 30px;
+  color: #327865;
+  margin-bottom: 10px;
+  letter-spacing: -2px;
+}
+
+.conteudo-selo p {
+  font-size: 17.5px;
+  font-weight: 700;
+  color: rgb(255, 69, 10);
+}
+
+@media (max-width: 768px) {
+  .engloba-selo-header {
+    width: 310px;
+  }
+  .conteudo-selo {
+    width: 187px;
+  }
+  .img-selo img {
+    width: 115px;
+  }
+  .conteudo-selo h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .conteudo-selo p {
+    font-size: 11px;
+  }
+}
+
+
+
+
+/************************************
+*******     Sobre  Oasys     *******
+************************************/
+
+.section-sobre-pivot {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 60px 0;
+}
+
+.engloba-sobre-pivot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.engloba-carrousel {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.carrousel {
+  width: 506px;
+  height: 514px;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-carrousel {
+  position: absolute;
+  left: -35px;
+  z-index: 10;
+}
+
+.engloba-setas {
+  position: absolute;
+  right: 146px;
+  top: 90.2%;
+  z-index: 10;
+}
+
+.arrow-left {
+  position: absolute;
+  cursor: pointer;
+  right: -52px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #fdb749;
+}
+
+.arrow-right {
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #327865;
+}
+
+.conteudo-pivot {
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+
+.conteudo-pivot h2 
+{
+  font-size: 30px;
+  color: #327865;
+  line-height: 35px;
+  margin-bottom: 25px;
+}
+
+.conteudo-pivot h4 
+{
+  font-size: 20px;
+  color: #327865;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+.conteudo-pivot p
+{
+  color: #327865;
+  line-height: 23px;
+  width: 80%;
+}
+
+.academias-pivot {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin-top: 90px;
+  background-color: #fdb749;
+}
+
+.academias-pivot .container {
+  height: 100%;
+}
+
+.engloba-academias-pivot {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.engloba-academias-pivot h2 {
+  font-size: 30px;
+  color: #327865;
+  line-height: 35px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.engloba-academias-pivot h3 {
+  font-size: 20px;
+  color: #327865;
+  line-height: 30px;
+  text-align: center;
+}
+
+.engloba-academias-pivot h3 span {
+  padding: 0 25px;
+}
+
+@media (max-width: 1300px) {
+  .engloba-sobre-pivot {
+    flex-flow: column-reverse;
+  }
+
+  .academias-pivot
+  {
+    background-color: #fdb749;
+  }
+
+  .engloba-carrousel {
+    width: 514px;
+    margin: 0 auto;
+  }
+  .engloba-setas {
+    right: 60px;
+  }
+  .conteudo-pivot {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .conteudo-pivot p {
+    margin: 0 auto;
+  }
+  .conteudo-pivot {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .engloba-carrousel {
+    width: 300px;
+  }
+  .academias-pivot
+  {
+    background-color: #fdb749;
+  }
+  .cada-img img {
+    width: 300px;
+  }
+  .logo-carrousel {
+    display: none;
+  }
+  .carrousel {
+    width: 300px;
+    height: 304px;
+    margin: 0 auto;
+  }
+  .arrow-left, .arrow-right {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+  }
+  .arrow-left {
+    right: -47px;
+  }
+  .engloba-setas {
+    right: 47px;
+    top: 85.2%;
+  }
+  .conteudo-pivot p {
+    width: 100%;
+  }
+  .academias-pivot {
+    margin-top: 70px;
+  }
+  .academias-pivot h2 {
+    font-size: 19px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .academias-pivot h3 {
+    font-size: 14px;
+  }
+  .academias-pivot h3 span {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .academias-pivot h3 {
+    font-size: 13px;
+  }
+  .academias-pivot
+  {
+    background-color: #fdb749;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/************************************
+*******    Melhor academia    *******
+************************************/
+
+.section-melhor-academia {
+  position: relative;
+  width: 100%;
+  height: 548px;
+  background: url(../imagens/back_promocao01.png) center no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.engloba-melhor-academia h2 {
+  width: 400px;
+  font-size: 30px;
+  line-height: 30px;
+  color: #327865;
+  margin-bottom: 20px;
+}
+
+.engloba-melhor-academia p {
+  line-height: 30px;
+  color: #327865;
+}
+
+.engloba-melhor-academia p span {
+  color: #327865;
+}
+
+.button {
+  width: 230px;
+}
+
+@media (max-width: 992px) {
+  .section-melhor-academia {
+    height: 100%;
+    background: none;
+  }
+  .engloba-melhor-academia {
+    text-align: center;
+  }
+  .engloba-melhor-academia h2 {
+    width: 100%;
+  }
+  .button {
+    margin: 25px auto 0 auto;
+  }
+}
+
+
+
+
+
+
+
+/************************************
+*******     Estatística     *******
+************************************/
+
+.section-estatistica {
+  position: relative;
+  width: 100%;
+  height: 269px;
+  background-color: #fdb749;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.engloba-estatistica {
+  display: flex;
+  justify-content: center;
+}
+
+.cada-estatistica {
+  width: 33.33%;
+  border-right: 3px solid #327865;
+  text-align: center;
+  padding: 0 62px;
+  color: #327865;
+  display: flex;
+  align-items: center;
+}
+
+.cada-estatistica h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.cada-estatistica p {
+  line-height: 18px;
+}
+
+.cada-estatistica:last-child {
+  border-right: none;
+}
+
+@media (max-width: 992px) {
+  .section-estatistica {
+    width: 100%;
+    height: 100%;
+    background-color: #fdb749;
+    padding: 50px 0;
+    margin-top: 50px;
+  }
+  .engloba-estatistica {
+    flex-flow: column;
+  }
+  .cada-estatistica {
+    border: none;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .cada-estatistica h3 {
+    font-size: 28px;
+  }
+  .cada-estatistica:last-child {
+    margin-bottom: 0;
+  }
+  .align-estatistica {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+/************************************
+*******     Nossos Cursos     *******
+************************************/
+
+.section-cursos {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 70px 0;
+  overflow: hidden;
+}
+
+.section-cursos h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #327865;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.engloba-cursos {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.engloba-cursos:last-child {
+  margin-top: 50px;
+}
+
+.cada-curso {
+  width: 22%;
+  border-top: 1px solid #327865;
+  border-bottom: 1px solid #327865;
+  border-left: 1px solid #327865;
+  padding: 5px;
+}
+
+.cada-curso-2
+{
+  width: 22%;
+}
+
+.cada-curso img {
+  margin-bottom: 20px;
+}
+
+.cada-curso h3 {
+  width: 190px;
+  line-height: 18px;
+  font-size: 17px;
+  color: #327865;
+}
+
+.cada-curso h4 {
+  line-height: 15px;
+  font-size: 14px;
+  color: #327865;
+  margin: 5px 0 20px 0;
+}
+
+.cada-curso p {
+  line-height: 18px;
+  color: #327865;
+}
+
+.engloba-aprenda-curso {
+  position: absolute;
+  width: 720px;
+  height: 355px;
+  right: -412px;
+  z-index: 142;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
+}
+
+.aprenda-curso {
+  width: 300px;
+  padding: 40px;
+}
+
+.aprenda-curso h2 {
+  color: #327865;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.aprenda-curso p {
+  line-height: 18px;
+  color: #327865;
+}
+
+.aprenda-curso h3 {
+  width: 210px;
+  color: #327865;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.button-informacoes {
+  border-radius: 23px;
+  background-image: -moz-linear-gradient( 25deg, rgb(228, 203, 160) 0%, rgb(253, 183, 73) 99%);
+  background-image: -webkit-linear-gradient( 25deg, rgb(228, 203, 160) 0%, rgb(253, 183, 73) 99%);
+  background-image: -ms-linear-gradient( 25deg, rgb(228, 203, 160) 0%, rgb(253, 183, 73) 99%);
+  margin-top: 20px;
+  width: 100%;
+  padding: 18px 0;
+  text-align: center;
+  color: #327865;
+  font-weight: 400;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+/* rgb(50, 120, 101)==== rgb(228, 203, 160), rgb(247, 188, 94), rgb(253, 183, 73)) */
+
+.button-informacoes:hover {
+  background-image: -moz-linear-gradient( 25deg, rgb(50, 120, 101) 0%, rgb(228, 203, 160) 99%);
+  background-image: -webkit-linear-gradient( 25deg, rgb(50, 120, 101) 0%, rgb(228, 203, 160) 99%);
+  background-image: -ms-linear-gradient( 25deg, rgb(50, 120, 101) 0%, rgb(228, 203, 160) 99%);
+}
+
+.button-whats {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: #2ed38b;
+  border-radius: 23px;
+  margin-top: 10px;
+  width: 100%;
+  padding: 11px 0;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.button-whats i {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.button-whats:hover {
+  background-color: #24aa70;
+}
+
+
+
+
+
+@media (max-width: 1250px) {
+  .engloba-aprenda-curso {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    right: 0px;
+    z-index: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e3e3e3;
+    border-top: 1px solid #e3e3e3;
+    padding-bottom: 40px;
+    padding-top: 15px;
+    margin-top: 10px;
+  }
+  .aprenda-curso {
+    width: 100%;
+    padding: 0;
+  }
+  .section-cursos {
+    padding: 50px 0 20px 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .section-cursos {
+    padding: 50px 0 20px 0;
+  }
+  .section-cursos h2 {
+    margin-bottom: 25px;
+  }
+  .engloba-cursos {
+    flex-flow: column;
+  }
+  .cada-curso {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .cada-curso img {
+    margin: 0 auto 20px auto;
+  }
+  .cada-curso h3 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .engloba-cursos:last-child {
+    margin-top: 0;
+  }
+  .button-informacoes {
+    width: 240px;
+    margin: 20px auto 0 auto;
+  }
+  .button-whats {
+    width: 240px;
+    margin: 10px auto 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .aprenda-curso h3 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+}
+
+
+
+
+
+
+
+
+/************************************
+*******      Educadores       *******
+************************************/
+
+.section-educadores {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0 0 50px 0;
+}
+
+.section-educadores h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #327865;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.engloba-educadores {
+  display: flex;
+  justify-content: center;
+}
+
+.engloba-educadores img {
+  width: 100%;
+}
+
+.engloba-educadores:nth-child(3) {
+  margin-bottom: 50px;
+}
+
+.educadores {
+  display: flex;
+}
+
+.cada-educador {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.cada-educador:hover .hover-img {
+  opacity: 1;
+}
+
+.icon-educador {
+  width: 140px !important;
+  height: 140px;
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+  .icon-educador {
+    width: 110px !important;
+    height: 110px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-educadores h2 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .engloba-educadores {
+    flex-flow: column;
+  }
+  .educadores {
+    justify-content: center;
+  }
+  .icon-educador {
+    width: 110px !important;
+    height: 110px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/************************************
+*******    Imagens footer     *******
+************************************/
+
+.section-images {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.engloba-images {
+  display: flex;
+}
+
+.cada-image {
+  position: relative;
+}
+
+.cada-image img {
+  position: relative;
+  width: 100%;
+}
+
+.cada-image:hover .hover-img {
+  opacity: 1;
+}
+
+.hover-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: linear-gradient(to right,rgba(228, 203, 160, 0.616), rgba(235, 198, 138, 0.87), rgba(247, 188, 94, 0.774), rgba(253, 184, 73, 0.842));
+  opacity: 0;
+}
+
+.cada-image i {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #327865;
+  font-size: 20px;
+}
+
+.hover-img h3 {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #327865;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+  line-height: 20px;
+}
+
+@media (max-width: 1366px) {
+  .cada-image:nth-child(6) {
+    display: none;
+  }
+}
+
+@media (max-width: 1250px) {
+  .cada-image:nth-child(5) {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .cada-image:nth-child(4) {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .cada-image:nth-child(3) {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+/************************************
+*******        footer         *******
+************************************/
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 60px 0;
+  background-image: -moz-linear-gradient( 25deg, rgb(228, 203, 160) 0%, rgb(253, 183,73) 99%);
+  background-image: -webkit-linear-gradient( 25deg, rgb(228, 203, 160) 0%, rgb(253,183,73) 99%);
+  background-image: -ms-linear-gradient( 25deg, rgb(228, 203, 160) 0%, rgb(253,183,73) 99%)
+}
+
+.engloba-footer {
+  display: flex;
+  justify-content: space-between;
+  color: #327865;
+}
+
+.logo-footer img {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+.logo-footer p {
+  margin-bottom: 20px;
+}
+
+.cada-footer {
+  width: 22%;
+}
+
+.redes {
+  display: flex;
+  font-size: 50px;
+}
+
+.redes a {
+  color: #327865;
+  transition: 0.3s;
+}
+
+.redes a:hover {
+  color: #327865;
+}
+
+.redes a:last-child {
+  margin-left: 15px;
+}
+
+.cada-footer {
+  line-height: 23px;
+}
+
+.margin-footer {
+  margin-bottom: 7px;
+}
+
+.cada-footer a {
+  color: #fff;
+}
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+  .footer {
+    padding: 40px 0;
+  }
+  .engloba-footer {
+    flex-flow: column;
+  }
+  .cada-footer {
+    width: 100%;
+    text-align: center;
+  }
+  .redes {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .cada-footer:nth-child(3) {
+    margin-bottom: 20px;
+  }
+  .logo-footer img {
+    margin: 0 auto 15px auto;
+  }
+}
+ 
